@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<html>
+  
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1><br>
+      <p class="page-subtitle">
+      Insira suas notas e descubra sua média final!
+      </p><br>
+      
+      <label class="text-label">1º bimestre:<input type="number" id="nota1" size="2"></label>
+      <br><br>
+      <label class="text-label">2º bimestre:<input type="number" id="nota2" size="2"></label>
+      <br><br>
+      <label class="text-label">3º bimestre:<input type="number" id="nota3" size="2"></label>
+      <br><br>
+      <label class="text-label">4º bimestre:<input type="number" id="nota4" size="2"></label>
+      <br><br>
+      
+      <button type="submit" onclick="calcularMedia()">Calcular</button>
+      <br><br>
+      
+      <p id="resultadoMedia"></p>
+      
+    </div>
+
+<script src="calculadora.js"></script>
+  </body>
+</html>

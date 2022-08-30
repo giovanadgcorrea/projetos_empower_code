@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="giovanaflix.css">
+    <title>GiovanaFlix</title>
+</head>
+<body>
+    <div class="container">
+      <h1 class="page-title">GiovanaFlix</h1><br><br>
+  
+      <div class="usuario">
+        <input type="text" placeholder="Insira o título da série" id="nomeDaSerie">
+        <input type="text" placeholder="Insira a url da imagem" id="linkImagem">
+        <input type="text" placeholder="Insira a url do trailer" id="linkTrailer">
+        <button type="submit" onclick="adicionarNovaSerieNaTela()">Adicionar nova série</button>
+      </div>
+    </div><br><br>
+    <div class="centralizar">
+      <div id="containerSeries" class="todasAsSeries"></div>
+    </div>
+    <script src="giovanaflix.js"></script>
+  </body>
+  </html>

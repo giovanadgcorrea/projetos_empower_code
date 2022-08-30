@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conversor_temperatura.css">
+    <title>Conversor de temperatura</title>
+</head>
+<body>
+    <div class="container">
+      <h1 class="page-title">Conversor de temperatura</h1>
+      <br><br>
+      <p class="page-subtitle">
+      Converta graus Celsius em Fahrenheit ou em Kelvin!
+      </p><br>
+      <label for="graus">Insira a temperatura em graus Celsius</label><br>
+      <label><input type="number" id="temperatura" size="2"></label><br>
+      <button type="submit" onclick="converterFahrenheit()">Fahrenheit</button>
+      <button type="submit" onclick="converterKelvin()">Kelvin</button>
+      <br><br>
+      <h2 id="resultadoTemperatura"></p>
+    </div>
+    <script src="conversor_temperatura.js"></script>
+</body>
+</html>

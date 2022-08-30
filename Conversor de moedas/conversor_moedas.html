@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conversor_moedas.css">
+    <title>Conversor de moedas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1><br><br>
+        <p class="page-subtitle">
+          Descubra quanto vale o Real em diferentes moedas!
+        </p>
+        <br><br>
+        <label for="moeda">Insira o valor em Real</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="ConverterDolar()">Dólar</button>
+        <button type="submit" onclick="ConverterEuro()">Euro</button>
+        <button type="submit" onclick="ConverterBitcoin()">Bitcoin</button>
+        <br><br>
+        <h2 id="valorConvertido"></h2>
+      </div>
+      <script src="conversor_moedas.js"></script>
+</body>
+</html>
