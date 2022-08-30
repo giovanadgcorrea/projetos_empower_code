@@ -6,7 +6,7 @@
 &rarr; Conversor de moedas<br>
 &rarr; Conversor de temperatura<br>
 &rarr; GiovanaFlix<br>
-&rarr; Mentalista<br><br>
+&rarr; Mentalista<br>
 
 <strong>Tecnologias utilizadas:<strong><br>
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
